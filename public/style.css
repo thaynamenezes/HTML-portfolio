@@ -48,14 +48,14 @@ body {
 }
 
 .language-card {
-    width: 19%;
+    width: 20%;
     float: left;
     text-align: center;
 }
 
 .language-title {
     letter-spacing: 0.08em;
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
 .links-head {
