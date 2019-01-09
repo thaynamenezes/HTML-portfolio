@@ -1,3 +1,82 @@
-h1, h2, p {font-family: sans-serif;
+* {font-family: 'Karla', sans-serif;
+  color: #737373;
+}
+
+body {
+    background-image: url(../images/bg.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+  max-width: 80%;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  background-color: white;
+}
+
+.principal {
+  width: 80%;
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  left: 10%;
+}
+
+#main-title {
+  font-family: 'Dancing Script', cursive;
   color: #6ad3db;
+  font-size: 8em;
+  text-align: left;
+  margin: 0 0.3em;
+}
+
+#sub-title {
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-right: 0.6em;
+  text-align: right;
+}
+
+.language-head {
+  text-align: left;
+  padding: 0.25em 1.5em 1em;
+  overflow: auto;
+  color:#6ad3db;
+  font-size: 1.5em;
+}
+
+.language-card {
+    width: 19%;
+    float: left;
+    text-align: center;
+}
+
+.language-title {
+    letter-spacing: 0.1em;
+    font-size: 0.5em;
+  }
+
+.links-head {
+  text-align: left;
+  margin-top: 5em;
+  padding: 3em 1.5em 1em;
+  color:#6ad3db;
+  font-size: 1.5em;
+}
+.links i {
+    padding: 0 1em 1em;
+}
+
+.links i:hover {
+  color: #c3edf0;
+  padding: 0 1em 1em;
+}
+
+.footer {
+    padding: 1em;
+    font-size: 0.1em;
+    letter-spacing: 0.03em;
+    text-align: center;
 }
